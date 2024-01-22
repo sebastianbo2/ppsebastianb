@@ -1,0 +1,75 @@
+header,
+header a,
+header a img,
+header nav,
+header nav ul,
+header nav ul li,
+header nav ul li a,
+header a button {
+  background-color: #24252a;
+}
+
+.logo-ib {
+  width: 100px;
+}
+
+header li,
+header a,
+header button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #e7e7e7;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo-ib {
+  cursor: pointer;
+}
+
+.menu-items {
+  list-style: none;
+}
+
+.menu-items li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.menu-items li a {
+  transition: 0.3s;
+}
+
+.menu-items li a:hover {
+  transition: 0.3s;
+  color: #0088a9;
+}
+
+.header-main {
+  padding: 9px 25px;
+  background-color: rgb(1, 121, 151);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-main {
+  background-color: rgba(0, 136, 169, 0.7);
+}
+
+header a button:hover {
+  opacity: 0.7;
+}

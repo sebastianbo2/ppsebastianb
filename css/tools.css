@@ -1,0 +1,209 @@
+/* PART SEPERATOR */
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 20px;
+  border-top: 1px solid gray;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* PART SEPERATOR */
+
+.tools-intro-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.title-box {
+  padding-left: 50px;
+  padding-right: 30px;
+  line-height: 70px;
+  box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.title-box img {
+  width: 80px;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.grid-title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.grid-text {
+  opacity: 0.6;
+  line-height: 35px;
+}
+
+.grid-redirect {
+  color: #5656c7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.grid-redirect:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease 0s;
+}
+
+/* PART SEPERATOR */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.info-vscode-container,
+.info-github-container,
+.info-decoration-container {
+  background-color: black;
+  margin-top: 100px;
+  position: relative;
+}
+
+.info-vscode-background,
+.info-github-background,
+.info-decoration-background {
+  opacity: 0.1;
+  background-color: black;
+  height: 700px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.info-vscode-title {
+  position: absolute;
+  top: 100px;
+  left: 6%;
+  background: none;
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.info-vscode-preview {
+  position: absolute;
+  right: 8%;
+  bottom: 50px;
+  background: none;
+  height: 85%;
+}
+
+.info-vscode-text {
+  font-weight: 500;
+  position: absolute;
+  left: 9%;
+  top: 200px;
+  background: none;
+  color: white;
+  opacity: 0.8;
+  width: 700px;
+  line-height: 28px;
+}
+
+.info-github-title {
+  position: absolute;
+  top: 100px;
+  right: 7%;
+  background: none;
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.info-github-text {
+  font-weight: 500;
+  position: absolute;
+  right: 8%;
+  top: 200px;
+  background: none;
+  color: white;
+  opacity: 0.8;
+  width: 700px;
+  line-height: 33px;
+  padding-top: 20px;
+}
+
+.info-github-preview {
+  position: absolute;
+  left: 6%;
+  bottom: 50px;
+  background: none;
+  height: 75%;
+}
+
+.info-decoration-title {
+  position: absolute;
+  top: 100px;
+  left: 6%;
+  background: none;
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.info-decoration-preview {
+  position: absolute;
+  right: 3%;
+  bottom: 14%;
+  background: none;
+  height: 65%;
+}
+
+.info-decoration-text {
+  font-weight: 500;
+  position: absolute;
+  left: 9%;
+  top: 200px;
+  background: none;
+  color: white;
+  opacity: 0.8;
+  width: 700px;
+  line-height: 31px;
+}
+
+.decorations-redirect-container {
+  position: absolute;
+  bottom: 35px;
+  left: 9%;
+  line-height: 35px;
+  background: none;
+}
+
+.decorations-redirect {
+  background: none;
+  color: rgb(38, 38, 153);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.decorations-redirect:hover {
+  opacity: 0.6;
+}
+
+.redirect-placeholder {
+  color: white;
+}

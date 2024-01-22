@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cr&eacute;ation d'un site web</title>
+
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/tools.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="menu">
+      <a
+        href="https://www.ibo.org/fr/programmes/middle-years-programme/assessment-and-exams/personal-project/"
+        target="_blank"
+      >
+        <img
+          class="logo-ib"
+          src="images/iblogo.png"
+          alt="Le projet personnel"
+        />
+      </a>
+      <nav>
+        <ul class="menu-items">
+          <li><a href="tools.html">Outils principaux</a></li>
+          <li><a href="languages.html">Les langages</a></li>
+          <li><a href="sources.html">Sources</a></li>
+          <li><a href="difficulties.html">Difficultés</a></li>
+          <!-- idk what to name this yet ^ -->
+        </ul>
+      </nav>
+      <a class="main" href="index.html"
+        ><button class="header-main">Page principale</button></a
+      >
+    </header>
+    <div class="title-container">
+      <p class="title">
+        Quels sont les outils nécéssaires au développement d'un site web?
+      </p>
+    </div>
+
+    <div class="tools-intro-container">
+      <div class="title-box">
+        <img src="grids/vscodelogo.png" alt="VisualStudio Code" />
+        <p class="grid-title">Un éditeur de code</p>
+        <p class="grid-text">
+          C'est l'outil qui vous permettra d'écrire votre code. Généralement on
+          veut utiliser des éditeurs qui facilite notre travail (par exemple,
+          qui font certaines choses automatiquement pour nous). Par convention,
+          on utilise souvent l'éditeur nommé &laquo; Visual Studio Code &raquo;,
+          puisqu'il possède beaucoup de fonctionnalités pratiques.
+        </p>
+        <a class="grid-redirect" id="top1" href="#top1"
+          >En savoir plus &darr;</a
+        >
+
+        <!-- REMEMBER TO ADD A NAME*******  -->
+      </div>
+      <div class="title-box">
+        <img
+          src="grids/github.png"
+          alt="Github, une source de domaine gratuite"
+        />
+        <p class="grid-title">Un domaine Web</p>
+        <p class="grid-text">
+          Le domaine Web est souvent connu comme le &laquo; lien &raquo; du site
+          web, mais il représente aussi l'endroit oû le site web se situe sur
+          l'internet même. Pour obtenir un domaine, il y a des sources qui sont
+          gratuites et d'autres qui sont payés, chacuns ayant leurs avantages et
+          inconvénients. La source la plus connu pour ceci est &laquo; Github
+          &raquo; .
+        </p>
+        <a class="grid-redirect" href="#info-github-redirect"
+          >En savoir plus &darr;</a
+        >
+        <!-- REMEMBER TO ADD A NAME*******  -->
+      </div>
+      <div class="title-box">
+        <img src="grids/decorations.png" alt="(decorations)" />
+        <p class="grid-title">Des sources de décorations</p>
+        <p class="grid-text">
+          Il est très important de décorer votre site web afin de le rendre plus
+          attrayant auprès de vos utilisateurs. Afin de faire ceci, on utilise
+          souvent des images, on utilise des polices de caractères typiques aux
+          sites web (ex: Roboto, la police de caractère utilisé sur YouTube, ou
+          Montserrat, une police très populaire grâce à son design moderne)
+        </p>
+        <a class="grid-redirect" href="#info-decorations-redirect"
+          >En savoir plus &darr;</a
+        >
+        <!-- REMEMBER TO ADD A NAME*******  -->
+      </div>
+    </div>
+
+    <div class="info-vscode-container">
+      <img
+        class="info-vscode-background"
+        src="images/coding-background.webp"
+        alt="arrière-plan"
+      />
+      <p class="info-vscode-title">Visual Studio Code</p>
+      <p class="info-vscode-text">
+        On dit souvent juste VSCode, et c'est le logiciel le plus utilisé pour
+        éditer du code. On peut observer à droite une image qui démontre
+        l'apparence de ce logiciel lors de son utilisation. Lorsqu'on créé du
+        code, on veut souvent séparer notre code selon le langage utilisé dans
+        chaque document. En rouge, on peut voire tous les onglets qui sont
+        ouvert, et on peut changer d'onglets facilement en utilisant la barre
+        encadré en bleu, comme vous le faites souvent sur Google ou Safari, ou
+        n'importe quel autre navigateur. En jaune, il y a tous les éléments qui
+        font partie du dossier de votre projet sur lequel vous travaillez
+        actuellement. Finalement, c'est dans l'endroit en vert que vous allez
+        écrire du code, comme vous ferez avec Word ou Google Docs, mais selon un
+        langage de code et non du français/anglais. Une autre raison qui rend
+        VSCode si utilisé est le fait qu'il y a une grande bibliothèque
+        d'extensions qui peuvent faciliter au codage. La façon dont j'ai
+        découverts les éxtensions étais lors d'une video d'introduction pour
+        HTML, qui se trouve dans mes sources.
+      </p>
+      <img
+        class="info-vscode-preview"
+        src="images/vscode-preview.png"
+        alt="Un image de l'apparence de Visual Studio Code"
+      />
+    </div>
+    <p class="redirect-placeholder" id="info-github-redirect">a</p>
+    <div id="info-github-container" class="info-github-container">
+      <img
+        class="info-github-background"
+        src="images/github-background.jpg"
+        alt="arrière-plan"
+      />
+      <p class="info-github-title">Github, pour un domaine gratuit</p>
+      <p class="info-github-text">
+        Afin d'avoir un site web qui peut être accéder par n'importe quel
+        ordinateur, il faut avoir un nom de domaine (ou &laquo; domain name
+        &raquo; en anglais). Essentiellement, le domaine est le lien par lequel
+        les gens peuvent chercher votre siteweb. Par contre, pour obtenir un
+        domaine il faut payer à peu près 20$ par année. Afin d'éviter cela, vous
+        pouvez vous rendre sur un site web comme Github, et créer un dépôt, oû
+        vous metterez tous vos fichiers pour le site web, comme vous pouvez
+        voire sur l'image à gauche du texte. Il est important de savoir que
+        lorsque vous créer votre page principale pour le site web, on le nomme
+        généralement &laquo; index.html &raquo;, puisque c'est le premier
+        fichier que votre Chrome ou Safari cherche (donc si votre utilisateur
+        cherche www.exemple.com, la page s'ouvrira directement à
+        www.exemple.com/index.html.
+      </p>
+      <img
+        class="info-github-preview"
+        id="info-github-preview"
+        src="images/github-preview.png"
+        alt="arrière-plan"
+      />
+    </div>
+    <p class="redirect-placeholder" id="info-decorations-redirect">a</p>
+    <div class="info-decoration-container">
+      <img
+        class="info-decoration-background"
+        src="images/info-decoration-background.png"
+        alt="arrière-plan"
+      />
+      <p class="info-decoration-title">Les décorations importantes</p>
+      <p class="info-decoration-text">
+        Lors de la création d'un site web, on veut généralement utiliser des
+        polices de caratères plus connus. La majorité de ces polices se trouvent
+        sur Google fonts, qui contient une très grande sélection dépendament de
+        vos goûts. <br />
+        D'autre part, il est très important d'apprendre comment organiser un
+        site web. Il y a quelques règles généraux, comme par exemple de garder
+        des couleurs différentes entre chaque sections, d'organiser les pages
+        selons les idées, etc. De plus, je vous recommende d'aller voir
+        plusieurs site web afin de voir quelques concepts qui sont en communs,
+        et même si vous n'avez pas d'inspirations. <br />
+        Finalement, beaucoup de site webs possèdes des images qui ne sont pas
+        vraiment en lien avec leurs thèmes, mais simplement afin de paraitre
+        plus décorés. Si jamais vous souhaitez faire la même chose, vous pouvez
+        vous rendre sur Stock images.
+      </p>
+      <p class="decorations-redirect-container">
+        <a
+          target="_blank"
+          class="decorations-redirect"
+          href="https://fonts.google.com/"
+          >Google fonts &rarr;</a
+        >
+        <br />
+        <a
+          target="_blank"
+          class="decorations-redirect"
+          href="https://webflow.com/free-website-templates"
+          >Modèles de sites web &rarr;</a
+        >
+        <br />
+        <a
+          target="_blank"
+          class="decorations-redirect"
+          href="https://www.istockphoto.com/?http://esource=SEM_IS_GO_CA_Head_Image_EN&kw=CA_Stock-Image_Exact_stock+images_e&kwid=s_43700067023747880_dc&pcrid=569737459817&gad_source=1&gclid=Cj0KCQiAtOmsBhCnARIsAGPa5yZ-eyGF0qJo-4x5pl_SrYJQhH6bsxRKjTq8l8tL1DvOPmx9HWX7_BMaAk1kEALw_wcB&gclsrc=aw.ds"
+        >
+          Stock images &rarr;
+        </a>
+      </p>
+      <img
+        class="info-decoration-preview"
+        src="images/info-decoration-preview.png"
+      />
+    </div>
+  </body>
+</html>
