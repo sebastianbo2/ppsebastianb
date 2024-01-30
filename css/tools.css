@@ -1,209 +1,827 @@
-/* PART SEPERATOR */
+@media (min-width: 1800px) {
+  /* PART SEPERATOR */
 
-.title-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 20px;
+    border-top: 1px solid gray;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* PART SEPERATOR */
+
+  .tools-intro-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .title-box {
+    padding-left: 50px;
+    padding-right: 30px;
+    line-height: 70px;
+    box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
+
+  .title-box img {
+    width: 80px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .grid-title {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .grid-text {
+    opacity: 0.95;
+    line-height: 35px;
+  }
+
+  .grid-redirect {
+    color: #5656c7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .grid-redirect:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
+  }
+
+  /* PART SEPERATOR */
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .info-vscode-container,
+  .info-github-container,
+  .info-decoration-container {
+    background-color: black;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .info-vscode-background,
+  .info-github-background,
+  .info-decoration-background {
+    opacity: 0.1;
+    background-color: black;
+    height: 700px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .info-vscode-title {
+    position: absolute;
+    top: 100px;
+    left: 6%;
+    background: none;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-vscode-preview {
+    position: absolute;
+    right: 8%;
+    bottom: 50px;
+    background: none;
+    height: 85%;
+  }
+
+  .info-vscode-text {
+    font-weight: 500;
+    position: absolute;
+    left: 9%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 700px;
+    line-height: 28px;
+  }
+
+  .info-github-title {
+    position: absolute;
+    top: 100px;
+    right: 7%;
+    background: none;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-github-text {
+    font-weight: 500;
+    position: absolute;
+    right: 8%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 700px;
+    line-height: 33px;
+    padding-top: 20px;
+  }
+
+  .info-github-preview {
+    position: absolute;
+    left: 6%;
+    bottom: 50px;
+    background: none;
+    height: 75%;
+  }
+
+  .info-decoration-title {
+    position: absolute;
+    top: 100px;
+    left: 6%;
+    background: none;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-decoration-preview {
+    position: absolute;
+    right: 3%;
+    bottom: 14%;
+    background: none;
+    height: 65%;
+  }
+
+  .info-decoration-text {
+    font-weight: 500;
+    position: absolute;
+    left: 9%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 700px;
+    line-height: 31px;
+  }
+
+  .decorations-redirect-container {
+    position: absolute;
+    bottom: 35px;
+    left: 9%;
+    line-height: 35px;
+    background: none;
+  }
+
+  .decorations-redirect {
+    background: none;
+    color: rgb(38, 38, 153);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  .decorations-redirect:hover {
+    opacity: 0.6;
+  }
+
+  .redirect-placeholder {
+    color: white;
+  }
 }
 
-.title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  font-weight: 500;
-  padding-top: 20px;
-  border-top: 1px solid gray;
-  padding-left: 50px;
-  padding-right: 50px;
+@media (min-width: 801px) and (max-width: 1800px) {
+  /* PART SEPERATOR */
+
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 20px;
+    border-top: 1px solid gray;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* PART SEPERATOR */
+
+  .tools-intro-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .title-box {
+    padding-left: 50px;
+    padding-right: 30px;
+    line-height: 70px;
+    box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
+
+  .title-box img {
+    width: 80px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .grid-title {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .grid-text {
+    opacity: 0.6;
+    line-height: 30px;
+  }
+
+  .grid-redirect {
+    color: #5656c7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .grid-redirect:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
+  }
+
+  /* PART SEPERATOR */
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .info-vscode-container,
+  .info-github-container,
+  .info-decoration-container {
+    background-color: black;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .info-vscode-background,
+  .info-github-background,
+  .info-decoration-background {
+    opacity: 0.1;
+    background-color: black;
+    height: 700px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .info-vscode-title {
+    position: absolute;
+    top: 100px;
+    left: 3%;
+    background: none;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-vscode-preview {
+    position: absolute;
+    right: 5%;
+    bottom: 75px;
+    background: none;
+    height: 70%;
+  }
+
+  .info-vscode-text {
+    font-weight: 500;
+    position: absolute;
+    left: 6%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 600px;
+    line-height: 28px;
+    font-size: 15px;
+  }
+
+  .info-github-title {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    background: none;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-github-text {
+    font-weight: 500;
+    position: absolute;
+    right: 4%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 575px;
+    line-height: 33px;
+    font-size: 15px;
+  }
+
+  .info-github-preview {
+    position: absolute;
+    left: 3%;
+    bottom: 125px;
+    background: none;
+    height: 60%;
+  }
+
+  .info-decoration-title {
+    position: absolute;
+    top: 100px;
+    left: 4%;
+    background: none;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-decoration-preview {
+    position: absolute;
+    right: 3%;
+    bottom: 25%;
+    background: none;
+    height: 45%;
+  }
+
+  .info-decoration-text {
+    font-weight: 500;
+    position: absolute;
+    left: 6%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 600px;
+    line-height: 31px;
+    font-size: 15px;
+  }
+
+  .decorations-redirect-container {
+    position: absolute;
+    bottom: 50px;
+    right: 28%;
+    line-height: 35px;
+    background: none;
+  }
+
+  .decorations-redirect {
+    background: none;
+    color: rgb(38, 38, 153);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .decorations-redirect:hover {
+    opacity: 0.6;
+  }
+
+  .redirect-placeholder {
+    color: white;
+  }
 }
+@media (min-width: 481px) and (max-width: 800px) {
+  /* PART SEPERATOR */
 
-/* PART SEPERATOR */
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
 
-.tools-intro-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* PART SEPERATOR */
+
+  .tools-intro-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    row-gap: 40px;
+  }
+
+  .title-box {
+    padding-left: 50px;
+    padding-right: 30px;
+    line-height: 70px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
+
+  .title-box img {
+    width: 80px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .grid-title {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .grid-text {
+    opacity: 0.6;
+    line-height: 30px;
+  }
+
+  .grid-redirect {
+    color: #5656c7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .grid-redirect:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
+  }
+
+  /* PART SEPERATOR */
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .info-vscode-container,
+  .info-github-container,
+  .info-decoration-container {
+    background-color: black;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .info-vscode-background,
+  .info-github-background,
+  .info-decoration-background {
+    opacity: 0.1;
+    background-color: black;
+    height: 700px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .info-vscode-title {
+    position: absolute;
+    top: 100px;
+    left: 3%;
+    background: none;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-vscode-preview {
+    position: absolute;
+    right: 5%;
+    bottom: 75px;
+    background: none;
+    height: 70%;
+    display: none;
+  }
+
+  .info-vscode-text {
+    font-weight: 500;
+    position: absolute;
+    left: 6%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 600px;
+    line-height: 28px;
+    font-size: 15px;
+  }
+
+  .info-github-title {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    background: none;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-github-text {
+    font-weight: 500;
+    position: absolute;
+    right: 4%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 575px;
+    line-height: 33px;
+    font-size: 15px;
+  }
+
+  .info-github-preview {
+    position: absolute;
+    left: 3%;
+    bottom: 125px;
+    background: none;
+    height: 60%;
+    display: none;
+  }
+
+  .info-decoration-title {
+    position: absolute;
+    top: 100px;
+    left: 4%;
+    background: none;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+
+  .info-decoration-preview {
+    position: absolute;
+    right: 3%;
+    bottom: 25%;
+    background: none;
+    height: 45%;
+    display: none;
+  }
+
+  .info-decoration-text {
+    font-weight: 500;
+    position: absolute;
+    left: 6%;
+    top: 200px;
+    background: none;
+    color: white;
+    opacity: 0.8;
+    width: 600px;
+    line-height: 31px;
+    font-size: 15px;
+  }
+
+  .decorations-redirect-container {
+    position: absolute;
+    bottom: 20px;
+    right: 28%;
+    line-height: 35px;
+    background: none;
+  }
+
+  .decorations-redirect {
+    background: none;
+    color: rgb(38, 38, 153);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .decorations-redirect:hover {
+    opacity: 0.6;
+  }
+
+  .redirect-placeholder {
+    color: white;
+  }
 }
+@media (max-width: 480px) {
+  /* PART SEPERATOR */
 
-.title-box {
-  padding-left: 50px;
-  padding-right: 30px;
-  line-height: 70px;
-  box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
-  position: relative;
-}
+  .title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 13px;
+    padding-left: 30px;
+  }
 
-.title-box img {
-  width: 80px;
-  margin-left: -20px;
-  margin-top: 10px;
-}
+  /* PART SEPERATOR */
 
-.grid-title {
-  font-size: 20px;
-  font-weight: 800;
-}
+  .tools-intro-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    row-gap: 40px;
+  }
 
-.grid-text {
-  opacity: 0.6;
-  line-height: 35px;
-}
+  .title-box {
+    padding-left: 50px;
+    padding-right: 30px;
+    line-height: 40px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
 
-.grid-redirect {
-  color: #5656c7;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-}
+  .title-box img {
+    width: 40px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
 
-.grid-redirect:hover {
-  cursor: pointer;
-  opacity: 0.5;
-  transition: all 0.3s ease 0s;
-}
+  .grid-title {
+    font-size: 15px;
+    font-weight: 800;
+  }
 
-/* PART SEPERATOR */
+  .grid-text {
+    opacity: 0.6;
+    line-height: 22px;
+    font-size: 10px;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  .grid-redirect {
+    color: #5656c7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 10px;
+  }
 
-.info-vscode-container,
-.info-github-container,
-.info-decoration-container {
-  background-color: black;
-  margin-top: 100px;
-  position: relative;
-}
+  .grid-redirect:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
+  }
 
-.info-vscode-background,
-.info-github-background,
-.info-decoration-background {
-  opacity: 0.1;
-  background-color: black;
-  height: 700px;
-  object-fit: cover;
-  width: 100%;
-}
+  /* PART SEPERATOR */
 
-.info-vscode-title {
-  position: absolute;
-  top: 100px;
-  left: 6%;
-  background: none;
-  color: white;
-  font-size: 50px;
-  text-decoration: none;
-  font-weight: 800;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-.info-vscode-preview {
-  position: absolute;
-  right: 8%;
-  bottom: 50px;
-  background: none;
-  height: 85%;
-}
+  .info-vscode-container,
+  .info-github-container,
+  .info-decoration-container {
+    margin-top: 100px;
+    position: relative;
+    margin-left: 20px;
+  }
 
-.info-vscode-text {
-  font-weight: 500;
-  position: absolute;
-  left: 9%;
-  top: 200px;
-  background: none;
-  color: white;
-  opacity: 0.8;
-  width: 700px;
-  line-height: 28px;
-}
+  .info-vscode-background,
+  .info-github-background,
+  .info-decoration-background {
+    opacity: 0.1;
+    height: 700px;
+    object-fit: cover;
+    width: 100%;
+    display: none;
+  }
 
-.info-github-title {
-  position: absolute;
-  top: 100px;
-  right: 7%;
-  background: none;
-  color: white;
-  font-size: 50px;
-  text-decoration: none;
-  font-weight: 800;
-}
+  .info-vscode-title {
+    background: none;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+  }
 
-.info-github-text {
-  font-weight: 500;
-  position: absolute;
-  right: 8%;
-  top: 200px;
-  background: none;
-  color: white;
-  opacity: 0.8;
-  width: 700px;
-  line-height: 33px;
-  padding-top: 20px;
-}
+  .info-vscode-preview {
+    right: 5%;
+    bottom: 75px;
+    background: none;
+    height: 70%;
+    display: none;
+  }
 
-.info-github-preview {
-  position: absolute;
-  left: 6%;
-  bottom: 50px;
-  background: none;
-  height: 75%;
-}
+  .info-vscode-text,
+  .info-github-text,
+  .info-decoration-text {
+    font-weight: 500;
+    background: none;
+    opacity: 0.8;
+    line-height: 20px;
+    font-size: 10px;
+    margin-top: 15px;
+    padding-right: 30px;
+  }
 
-.info-decoration-title {
-  position: absolute;
-  top: 100px;
-  left: 6%;
-  background: none;
-  color: white;
-  font-size: 50px;
-  text-decoration: none;
-  font-weight: 800;
-}
+  .info-github-title {
+    background: none;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 800;
+  }
 
-.info-decoration-preview {
-  position: absolute;
-  right: 3%;
-  bottom: 14%;
-  background: none;
-  height: 65%;
-}
+  /* .info-github-text {
+    font-weight: 500;
+    background: none;
+    opacity: 0.8;
+    width: 575px;
+    line-height: 33px;
+    font-size: 15px;
+  } */
 
-.info-decoration-text {
-  font-weight: 500;
-  position: absolute;
-  left: 9%;
-  top: 200px;
-  background: none;
-  color: white;
-  opacity: 0.8;
-  width: 700px;
-  line-height: 31px;
-}
+  .info-github-preview {
+    background: none;
+    height: 60%;
+    display: none;
+  }
 
-.decorations-redirect-container {
-  position: absolute;
-  bottom: 35px;
-  left: 9%;
-  line-height: 35px;
-  background: none;
-}
+  .info-decoration-title {
+    background: none;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 800;
+  }
 
-.decorations-redirect {
-  background: none;
-  color: rgb(38, 38, 153);
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 20px;
-}
+  .info-decoration-preview {
+    right: 3%;
+    bottom: 25%;
+    background: none;
+    height: 45%;
+    display: none;
+  }
 
-.decorations-redirect:hover {
-  opacity: 0.6;
-}
+  /* .info-decoration-text {
+    font-weight: 500;
+    left: 6%;
+    top: 200px;
+    background: none;
+    opacity: 0.8;
+    width: 600px;
+    line-height: 31px;
+    font-size: 15px;
+  } */
 
-.redirect-placeholder {
-  color: white;
+  .decorations-redirect-container {
+    bottom: 20px;
+    right: 28%;
+    line-height: 20px;
+    background: none;
+    margin-top: 20px0;
+  }
+
+  .decorations-redirect {
+    background: none;
+    color: rgb(38, 38, 153);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 13px;
+  }
+
+  .decorations-redirect:hover {
+    opacity: 0.6;
+  }
+
+  .redirect-placeholder {
+    color: white;
+  }
 }

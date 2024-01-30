@@ -1,13 +1,27 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  background-color: white;
-}
+@media (min-width: 481px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+  }
 
-body {
-  padding-top: 132px;
+  body {
+    padding-top: 132px;
+  }
 }
+@media (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+  }
 
+  body {
+    padding-top: 85px;
+  }
+}
 /*   background-color: #181a27fd; current background color, might change idk*/

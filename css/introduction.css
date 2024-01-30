@@ -1,135 +1,532 @@
-.intro {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  background-color: black;
+@media (min-width: 1800px) {
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
+  }
+
+  h1 {
+    font-size: 80px;
+    color: #e7e7e7;
+    z-index: 100;
+    position: absolute;
+    background: none;
+    top: 150px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: #e7e7e769;
+    font-weight: 200;
+    z-index: 100;
+    position: absolute;
+    background: none;
+  }
+
+  .intro-background {
+    opacity: 0.1;
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .intro-text,
+  .intro-text-list {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-right: gray 1px solid;
+    border-left: gray 1px solid;
+    line-height: 35px;
+    background-color: white;
+  }
+
+  .intro-text-list {
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .what-to-learn {
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    flex-direction: row;
+  }
+
+  .learning-question {
+    padding-top: 50px;
+    border-top: 1px solid gray;
+    z-index: 200;
+    margin-bottom: 75px;
+  }
+
+  .learning-decoration {
+    border-bottom: 1px solid gray;
+    position: absolute;
+    padding-bottom: 110px;
+    width: 600px;
+    z-index: 100;
+  }
+
+  .learning-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+  }
+
+  .tools,
+  .sources,
+  .difficulties,
+  .languages {
+    padding-left: 50px;
+    padding-right: 30px;
+    line-height: 60px;
+    box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
+  }
+
+  .learning-container div img {
+    width: 80px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .grid-title {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+
+  .grid-text {
+    line-height: 30px;
+    opacity: 0.7;
+  }
+
+  .learning-container div a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #3a4ca7;
+    transition: ease 0.3s all 0s;
+  }
+
+  .learning-container div a:hover {
+    opacity: 0.6;
+    transition: ease 0.3s all 0s;
+  }
 }
 
-h1 {
-  font-size: 80px;
-  color: #e7e7e7;
-  z-index: 100;
-  position: absolute;
-  background: none;
-  top: 150px;
-  font-weight: 700;
-}
+@media (min-width: 801px) and (max-width: 1800px) {
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
+  }
 
-h2 {
-  font-size: 30px;
-  color: #e7e7e769;
-  font-weight: 200;
-  z-index: 100;
-  position: absolute;
-  background: none;
-}
+  h1 {
+    font-size: 60px;
+    color: #e7e7e7;
+    z-index: 100;
+    position: absolute;
+    background: none;
+    top: 175px;
+    font-weight: 700;
+  }
 
-.intro-background {
-  opacity: 0.1;
-  height: 550px;
-  width: 100%;
-  object-fit: cover;
-}
+  h2 {
+    font-size: 25px;
+    color: #e7e7e769;
+    font-weight: 200;
+    z-index: 100;
+    position: absolute;
+    background: none;
+  }
 
-.intro-text,
-.intro-text-list {
-  margin-top: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding-left: 10%;
-  padding-right: 10%;
-  border-right: gray 1px solid;
-  border-left: gray 1px solid;
-  line-height: 35px;
-  opacity: 0.5;
-  background-color: white;
-}
+  .intro-background {
+    opacity: 0.1;
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+  }
 
-.intro-text-list {
-  margin-top: 0;
-  padding-top: 50px;
-  opacity: 0.9;
-  padding-bottom: 100px;
-}
+  .intro-text,
+  .intro-text-list {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-right: gray 1px solid;
+    border-left: gray 1px solid;
+    line-height: 35px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-.what-to-learn {
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
-  font-weight: 600;
-  flex-direction: row;
-}
+  .intro-text-list {
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
 
-.learning-question {
-  padding-top: 50px;
-  border-top: 1px solid gray;
-  z-index: 200;
-  margin-bottom: 75px;
-}
+  .what-to-learn {
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    flex-direction: row;
+  }
 
-.learning-decoration {
-  border-bottom: 1px solid gray;
-  position: absolute;
-  padding-bottom: 110px;
-  width: 600px;
-  z-index: 100;
-}
+  .learning-question {
+    padding-top: 50px;
+    border-top: 1px solid gray;
+    z-index: 200;
+    margin-bottom: 75px;
+  }
 
-.learning-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 50px;
-  row-gap: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 50px;
-}
+  .learning-decoration {
+    border-bottom: 1px solid gray;
+    position: absolute;
+    padding-bottom: 110px;
+    width: 600px;
+    z-index: 100;
+  }
 
-.tools,
-.sources,
-.difficulties,
-.languages {
-  padding-left: 50px;
-  padding-right: 30px;
-  line-height: 60px;
-  box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
-}
+  .learning-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+  }
 
-.learning-container div img {
-  width: 80px;
-  margin-left: -20px;
-  margin-top: 10px;
-}
+  .tools,
+  .sources,
+  .difficulties,
+  .languages {
+    padding-left: 50px;
+    padding-right: 30px;
+    line-height: 60px;
+    box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
+  }
 
-.grid-title {
-  font-size: 25px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  margin-top: 10px;
-}
+  .learning-container div img {
+    width: 80px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
 
-.grid-text {
-  line-height: 30px;
-  opacity: 0.7;
-}
+  .grid-title {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+  }
 
-.learning-container div a {
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  color: #3a4ca7;
-  transition: ease 0.3s all 0s;
-}
+  .grid-text {
+    line-height: 30px;
+    opacity: 0.7;
+  }
 
-.learning-container div a:hover {
-  opacity: 0.6;
-  transition: ease 0.3s all 0s;
-}
+  .learning-container div a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #3a4ca7;
+    transition: ease 0.3s all 0s;
+  }
 
-/* box-shadow: 5px 5px 10px rgba (color) */
+  .learning-container div a:hover {
+    opacity: 0.6;
+    transition: ease 0.3s all 0s;
+  }
+}
+@media (min-width: 481px) and (max-width: 800px) {
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
+    height: 400px;
+  }
+
+  h1 {
+    font-size: 22px;
+    color: #e7e7e7;
+    z-index: 100;
+    position: absolute;
+    background: none;
+    top: 175px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 15px;
+    color: #e7e7e769;
+    font-weight: 200;
+    z-index: 100;
+    position: absolute;
+    background: none;
+    top: 205px;
+    width: 400px;
+  }
+
+  .intro-background {
+    opacity: 0.1;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .intro-text,
+  .intro-text-list {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 35px;
+    background-color: white;
+  }
+
+  .intro-text-list {
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .what-to-learn {
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    flex-direction: row;
+  }
+
+  .learning-question {
+    padding-top: 50px;
+    z-index: 200;
+    margin-bottom: 75px;
+  }
+
+  .learning-decoration {
+    position: absolute;
+    padding-bottom: 110px;
+    width: 600px;
+    z-index: 100;
+  }
+
+  .learning-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+  }
+
+  .tools,
+  .sources,
+  .difficulties,
+  .languages {
+    padding-left: 50px;
+    padding-right: 30px;
+    line-height: 60px;
+    box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
+  }
+
+  .learning-container div img {
+    width: 80px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .grid-title {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+
+  .grid-text {
+    line-height: 30px;
+    opacity: 0.7;
+  }
+
+  .learning-container div a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #3a4ca7;
+    transition: ease 0.3s all 0s;
+  }
+
+  .learning-container div a:hover {
+    opacity: 0.6;
+    transition: ease 0.3s all 0s;
+  }
+}
+@media (max-width: 480px) {
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
+    height: 400px;
+  }
+
+  h1 {
+    font-size: 13px;
+    color: #e7e7e7;
+    z-index: 100;
+    position: absolute;
+    background: none;
+    top: 175px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 6px;
+    color: #e7e7e769;
+    font-weight: 200;
+    z-index: 100;
+    position: absolute;
+    background: none;
+    top: 195px;
+    left: 40px;
+  }
+
+  .intro-background {
+    opacity: 0.1;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .intro-text,
+  .intro-text-list {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    background-color: white;
+    font-size: 10px;
+  }
+
+  .intro-text-list {
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .what-to-learn {
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    flex-direction: row;
+  }
+
+  .learning-question {
+    padding-top: 50px;
+    z-index: 200;
+    margin-bottom: 75px;
+  }
+
+  .learning-decoration {
+    position: absolute;
+    padding-bottom: 110px;
+    width: 300px;
+    z-index: 100;
+  }
+
+  .learning-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+  }
+
+  .tools,
+  .sources,
+  .difficulties,
+  .languages {
+    padding-left: 50px;
+    padding-right: 30px;
+    line-height: 40px;
+    box-shadow: 10px 10px 10px 7px rgba(0, 0, 0, 0.15);
+  }
+
+  .learning-container div img {
+    width: 50px;
+    margin-left: -20px;
+    margin-top: 30px;
+  }
+
+  .grid-title {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+
+  .grid-text {
+    line-height: 15px;
+    opacity: 0.7;
+    font-size: 8px;
+  }
+
+  .learning-container div a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #3a4ca7;
+    transition: ease 0.3s all 0s;
+    font-size: 10px;
+  }
+
+  .learning-container div a:hover {
+    opacity: 0.6;
+    transition: ease 0.3s all 0s;
+  }
+}

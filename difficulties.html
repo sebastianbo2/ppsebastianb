@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cr&eacute;ation d'un site web</title>
+    <title>Création d'un site web</title>
 
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/difficulties.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,5 +45,137 @@
         ><button class="header-main">Page principale</button></a
       >
     </header>
+
+    <div class="title">
+      À faire attention lors de la création d'un site web..
+    </div>
+
+    <div class="difficulties-container">
+      <div class="difficulty-box">
+        <div class="difficulty-name">Les symboles</div>
+        <div class="difficulty-and-solution">
+          <div class="difficulty">
+            <div class="difficulty-title">
+              <img
+                class="difficulty-img"
+                src="images/big-no.png"
+                alt="(Le problème)"
+              />
+              <div class="difficulty-title-name">
+                Devoir chercher les caractères à chaque fois
+              </div>
+            </div>
+            <div class="difficulty-text">
+              Lors qu'on veut insérer des symboles dans notre texte (ex: "&lt;")
+              on ne peut pas juste mettre le caractère, parce qu'il causerait
+              des erreures, pour plusieurs raisons : La première raison serait
+              que le caractère est utilisé souvent dans le langage de code,
+              alors l'éditeur de code pense que vous écrivez du code, et donc
+              votre code ne marcherait plus, et le symbole n'apparaitera pas. Le
+              deuxième raison serait si on utilise des accents français,
+              puisqu'un éditeur de code et un moteur de recherche ne les
+              reconnais pas, donc il montra d'autres symboles inconnus.
+            </div>
+          </div>
+          <div class="solution">
+            <div class="solution-title">
+              <img
+                class="solution-img"
+                src="images/big-yes.png"
+                alt="(La solution)"
+              />
+              <div class="solution-title-name">
+                W3schools et la liste de caractères UTF-8
+              </div>
+            </div>
+            <div class="solution-text">
+              Premièrement, pour les symboles qui ne fonctionnent pas avec les
+              éditeurs de code, il faut simplement utiliser leurs
+              identifications respectives. Tous les symboles peuvent être
+              représenté par une combinaison de lettres et chiffre entre les
+              symboles "&" et ";" (ex: &amp;eacute&semi; donne "é"). Pour les
+              accents français, on doit modifier la liste de caractères que le
+              moteur de recherche utilise, pour faire cela, on doit inclure une
+              ligne de commande dans notre code d'HTML : &lt;meta
+              charset="UTF-8" /&gt; On inclus cette ligne de code dans la tête
+              de notre HTML, puisqu'il n'est pas vu directement dans le site
+              web.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="difficulty-box">
+        <div class="difficulty-name">Le français en codage</div>
+        <div class="difficulty-and-solution">
+          <div class="difficulty">
+            <div class="difficulty-title">
+              <img
+                class="difficulty-img"
+                src="images/big-no.png"
+                alt="(Le problème)"
+              />
+              <div class="difficulty-title-name">
+                Le problème : Pas de fonctions en français
+              </div>
+            </div>
+            <div class="difficulty-text">
+              Lorsque vous apprenderez à coder en HTML et CSS, vous vous
+              renderez compte que les commandes et les éléments portent des noms
+              basé sur la langue anglaise, et il est plus difficile de
+              comprendre si vous ne parlez pas anglais. On peut toujours donné
+              des noms à des classes en français, mais les commandes utilisés
+              vont toujours être utilisées en français.
+            </div>
+          </div>
+
+          <div class="difficulty">
+            <div class="difficulty-title">
+              <img
+                class="difficulty-img"
+                src="images/big-yes.png"
+                alt="(Le problème)"
+              />
+              <div class="difficulty-title-name">
+                Solution 1 : Coder en anglais
+              </div>
+            </div>
+            <div class="difficulty-text">
+              Lorsque vous apprenderez les langages de code, apprennez les avec
+              une vidéo en anglais, et lorsque vous coder, utiliser des noms
+              anglais pour vos classes. Puisque le niveau d'anglais utilisé lors
+              du codage est très bas, il n'est pas difficile de d'apprendre, de
+              comprendre, et de coder même si vous ne parlez pas très bien
+              l'anglais. Pour cette raison, il est très utile d'éviter le
+              français afin d'éviter de se mélanger.
+            </div>
+          </div>
+          <div class="solution">
+            <div class="solution-title">
+              <img
+                class="solution-img"
+                src="images/big-yes.png"
+                alt="(La solution)"
+              />
+              <div class="solution-title-name">
+                Solution 2 : Apprendre les fonctions en anglais et utiliser les
+                noms de classes français
+              </div>
+            </div>
+            <div class="solution-text">
+              Si vous avez de la difficulté d'apprendre en anglais, vous pouvez
+              toujours suivre des tutoriels en français, et rechercher les
+              commandes de styles si jamais vous les oubliez. Dans ce cas, il
+              est très utile de noter les commandes qui vous apprenez au fil et
+              leurs fonctionnalités pour des raisons d'éfficacités. Vous pouvezu
+              toujours donner des noms en français au classes d'éléments lors
+              que vous voudriez les cibler en CSS, et il est fortement
+              recommandé de donner des noms selon la fonctionnalité de
+              l'élément.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

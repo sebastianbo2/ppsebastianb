@@ -1,0 +1,136 @@
+@media (min-width: 481px) {
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: rgb(59, 145, 145);
+    margin-bottom: 50px;
+  }
+
+  .language-box-container {
+    display: flex;
+    column-gap: 75px;
+    padding: 100px;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 75px;
+    border-top: 1px solid gray;
+  }
+
+  .language-box {
+    flex: 1;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color: rgb(233, 226, 226);
+    padding: 25px;
+  }
+
+  .language-box * {
+    background-color: rgb(233, 226, 226);
+  }
+
+  .language-box-img {
+    height: 80px;
+    display: inline-block;
+  }
+
+  .language-box-name {
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .language-title {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 20px;
+  }
+
+  .nocss-link {
+    text-decoration: none;
+    color: rgb(212, 93, 93);
+    font-weight: bold;
+  }
+
+  .nocss-link:hover {
+    opacity: 0.6;
+  }
+
+  .language-box-text {
+    line-height: 27px;
+    opacity: 0.9;
+    font-family: arial;
+  }
+}
+@media (max-width: 480px) {
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: rgb(59, 145, 145);
+    margin-bottom: 50px;
+  }
+
+  .language-box-container {
+    display: flex;
+    column-gap: 75px;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 75px;
+  }
+
+  .language-box {
+    flex: 1;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    background-color: rgb(233, 226, 226);
+    padding: 25px;
+  }
+
+  .language-box * {
+    background-color: rgb(233, 226, 226);
+  }
+
+  .language-box-img {
+    height: 40px;
+    display: inline-block;
+  }
+
+  .language-box-name {
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .language-title {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 20px;
+  }
+
+  .nocss-link {
+    text-decoration: none;
+    color: rgb(212, 93, 93);
+    font-weight: bold;
+  }
+
+  .nocss-link:hover {
+    opacity: 0.6;
+  }
+
+  .language-box-text {
+    line-height: 20px;
+    opacity: 0.9;
+    font-family: arial;
+    font-size: 12px;
+  }
+}
